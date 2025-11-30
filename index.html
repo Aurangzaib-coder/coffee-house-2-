@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee House | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">Coffee<span>House</span></div>
+
+    <nav class="navbar" id="navbar">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="icons">
+      <span class="cart-icon">🛒</span>
+      <span class="menu-icon" id="menu-btn">☰</span>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1><span class="highlight">Fresh</span> Coffee in the Morning</h1>
+      <p>
+        Start your day with a cup of freshly brewed coffee.
+        Made with the finest beans and a lot of love.
+      </p>
+      <div class="home-btns">
+        <a href="menu.html" class="btn">Order Now</a>
+        <a href="about.html" class="btn btn-outline">Learn More</a>
+      </div>
+      <div class="stats">
+        <div class="stat-card">
+          <h3>50+</h3>
+          <p>Daily Customers</p>
+        </div>
+        <div class="stat-card">
+          <h3>15+</h3>
+          <p>Coffee Variants</p>
+        </div>
+        <div class="stat-card">
+          <h3>4.9★</h3>
+          <p>Customer Rating</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-image">
+      <div class="home-image-inner">
+        <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg" alt="Coffee cup">
+        <span class="badge">New • Winter Blend</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="cart-panel" id="cart-panel">
+    <div class="cart-header">
+      <h3>Your Cart</h3>
+      <button class="close-cart" id="close-cart">✕</button>
+    </div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-footer-panel">
+      <span class="cart-total-label">Total:</span>
+      <span class="cart-total-value" id="cart-total">$0.00</span>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 CoffeeHouse. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
